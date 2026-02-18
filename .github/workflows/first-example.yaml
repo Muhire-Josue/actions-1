@@ -11,8 +11,7 @@ jobs:
                 echo "My first job"
                 ls -lstra
                 cat README.md
-            - name: Generate ASCII Artwork
-              run: cowsay -f dragon "Run for cover, I am a DRAGON... RAWRR" >> dragon.txt
+            # - name: Generate ASCII Arts
 
             - name: README FILE
               run: cat README.md
